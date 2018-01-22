@@ -21,7 +21,14 @@
  
  */
 // Answer question 4 below
-
+let dinerCount = Int(160)
+let saladBar = Double(40.7)
+let soup = Double(30.5)
+let mainCourse = Double(179.2)
+let pizzaOven = Double(25.9)
+let date = String("Thursday January 18,2018")
+let time = String("11:30 AM to 1:00 PM")
+print("I used diners as an Int because ther is no need for decimal places which would make it a double and the value is an Integer (Int). Used Doubles for salad, soup, mainCouse, pizzaOven because the units have the potential to have decimal places which would make it a Double data type. I used strings for the date and time because the values contain letters which would require the string data tupe.")
 /*:
  ## Now share your understanding
  

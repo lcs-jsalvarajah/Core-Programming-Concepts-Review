@@ -17,6 +17,22 @@
 let currentHeartRate = 128
 
 // Answer question 6 below
+if currentHeartRate >= 100 && currentHeartRate <= 120 {
+    print("You are in the very light zone.")
+} else if currentHeartRate >= 121 && currentHeartRate <= 140 {
+    print("Light Zone")
+} else if currentHeartRate >= 111 && currentHeartRate <= 160 {
+    print("Moderate Zone")
+} else if currentHeartRate >= 161 && currentHeartRate <= 180 {
+     print("HARD ZONE")
+} else if currentHeartRate >= 181 && currentHeartRate <= 200 {
+    print("Maximun zone")
+} else if currentHeartRate > 200 {
+    print("SLOW DOWN")
+} else {
+    print("You slow")
+}
+    
 
 
 /*:

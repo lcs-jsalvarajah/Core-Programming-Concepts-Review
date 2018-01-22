@@ -18,6 +18,13 @@
  
  */
 // Answer question 2 below
+var numberOfCommits = 20
+var numberOfForks = 22
+let yearCreated = 2018
+let monthCreated = 1
+let dayCreated = 23
+print("Commits will change over time but the date of the commit will never change")
+
 
 /*:
  ## Now share your understanding
